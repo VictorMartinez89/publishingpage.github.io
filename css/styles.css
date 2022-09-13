@@ -1,0 +1,49 @@
+
+.title-label {
+    padding-top: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: darkgreen;
+    text-align: center;  
+}
+
+#content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 0% 0% 100% 100%;
+    flex-direction: row;
+}
+
+#intro{
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#github-logo {
+    align-items: center;
+    max-width: 800px;
+    height: auto;
+    flex: 0 0 100%;
+}
+
+#instructions-list {
+    align-items: center;
+    flex: 0 0 100%;
+    display: flex;
+}
+
+li{
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-repo{
+    height: 40rem;
+    width: auto;
+    
+}
